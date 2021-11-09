@@ -1,0 +1,46 @@
+body{
+
+    background-color: black;
+    
+}
+.cd{
+    font-size: 142px;
+    position: relative;
+    animation-name: dvd;
+    animation-duration: 10s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    color: rgb(39, 180, 82);
+}
+@keyframes dvd{
+    0%{
+       top: 300px;
+       left: 0;
+       font-size: 100px;
+       color: rgb(197, 37, 37);
+    }
+    25%{
+        top: 645px;
+        left: 850px;
+        font-size: 100px;
+        color: rgb(205, 219, 127); 
+    }
+    50%{
+        color: rgb(92, 167, 167);
+        bottom: 0px;
+        left: 1770px;
+        font-size: 100px;
+    }
+     75%{
+        top: 0px;
+        right: 0px;
+        font-size: 100px;
+        color: rgb(177, 51, 166);
+    }
+    100%{
+        top: 300px;
+        left: 0;
+        font-size: 100px;
+        color: rgb(231, 90, 35);
+    }
+}
