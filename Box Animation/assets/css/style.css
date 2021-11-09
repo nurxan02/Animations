@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100vh;
+}
+.anime{
+    width: 500px;
+    height: 70px;
+    border-radius: 4px;
+    background-color: rgb(209, 138, 5);
+    animation-name:boxanime;
+    animation-duration: 2.1s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+    position: relative;
+    animation-timing-function: linear;
+    background-color: rgb(187, 167, 81);
+}
+@keyframes boxanime{
+    0%{
+        background-color: rgb(224, 212, 96);
+        width: 380px;
+
+        top:0px;
+    }
+    100%{
+        background-color:rgb(63, 41, 0) ;
+        width: 60px;
+        height: 60px;
+        top: 230px;
+    }
+}
